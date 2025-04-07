@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
-		02C6EC742DA3946400039A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC732DA3946400039A0A /* ContentView.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
 		02C6EC7B2DA3946500039A0A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC7A2DA3946500039A0A /* Persistence.swift */; };
@@ -16,6 +15,37 @@
 		02C6EC882DA3946500039A0A /* O_ClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC872DA3946500039A0A /* O_ClubTests.swift */; };
 		02C6EC922DA3946500039A0A /* O_ClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC912DA3946500039A0A /* O_ClubUITests.swift */; };
 		02C6EC942DA3946500039A0A /* O_ClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC932DA3946500039A0A /* O_ClubUITestsLaunchTests.swift */; };
+		02C7D2B32DA3B1F300B99941 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2B22DA3B1F300B99941 /* NetworkManager.swift */; };
+		02C7D2B62DA3B21B00B99941 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2B52DA3B21B00B99941 /* APIError.swift */; };
+		02C7D2B82DA3B24100B99941 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2B72DA3B24100B99941 /* AppDIContainer.swift */; };
+		02C7D2BA2DA3B26000B99941 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2B92DA3B26000B99941 /* View+Extension.swift */; };
+		02C7D2BC2DA3B26900B99941 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2BB2DA3B26900B99941 /* String+Extension.swift */; };
+		02C7D2BF2DA3B28300B99941 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2BE2DA3B28300B99941 /* DateFormatterManager.swift */; };
+		02C7D2C12DA3B2A900B99941 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C02DA3B2A900B99941 /* UserModel.swift */; };
+		02C7D2C32DA3B2B400B99941 /* ClubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C22DA3B2B400B99941 /* ClubModel.swift */; };
+		02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */; };
+		02C7D2C72DA3B2DC00B99941 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C62DA3B2DC00B99941 /* Colors.swift */; };
+		02C7D2CB2DA3B47D00B99941 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2CA2DA3B47D00B99941 /* MainView.swift */; };
+		02C7D2CF2DA3B4CB00B99941 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2CE2DA3B4CB00B99941 /* Post.swift */; };
+		02C7D2D12DA3B4D100B99941 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D02DA3B4D100B99941 /* Club.swift */; };
+		02C7D2D32DA3B4E000B99941 /* ClubPostsUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */; };
+		02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */; };
+		02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D92DA3C35300B99941 /* ClubRepository.swift */; };
+		02C7D2DF2DA3C37F00B99941 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2DE2DA3C37F00B99941 /* CalendarView.swift */; };
+		02C7D2E42DA3C4AE00B99941 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */; };
+		02C7D2EA2DA3C4DA00B99941 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2E92DA3C4DA00B99941 /* Event.swift */; };
+		02C7D2EC2DA3C4EB00B99941 /* AddEventUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2EB2DA3C4EB00B99941 /* AddEventUseCase.swift */; };
+		02C7D2F42DA3C55B00B99941 /* RemoteCalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2F32DA3C55B00B99941 /* RemoteCalendarDataSource.swift */; };
+		02C7D2F62DA3C56800B99941 /* CalendarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2F52DA3C56800B99941 /* CalendarRepository.swift */; };
+		02C7D2F82DA3C58600B99941 /* ClubIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2F72DA3C58600B99941 /* ClubIntro.swift */; };
+		02C7D2FA2DA3C59D00B99941 /* FetchClubIntroListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2F92DA3C59D00B99941 /* FetchClubIntroListUseCase.swift */; };
+		02C7D2FE2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2FD2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift */; };
+		02C7D3002DA3C5C800B99941 /* ClubIntroRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2FF2DA3C5C800B99941 /* ClubIntroRepository.swift */; };
+		02C7D3092DA3C62600B99941 /* RemoteFAQRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D3082DA3C62600B99941 /* RemoteFAQRepository.swift */; };
+		02C7D30B2DA3C63700B99941 /* FAQRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D30A2DA3C63700B99941 /* FAQRepository.swift */; };
+		02C7D30D2DA3C64600B99941 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D30C2DA3C64600B99941 /* FAQ.swift */; };
+		02C7D30F2DA3C65200B99941 /* FetchFAQListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D30E2DA3C65200B99941 /* FetchFAQListUseCase.swift */; };
+		02C7D3112DA3C65800B99941 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D3102DA3C65800B99941 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +68,6 @@
 /* Begin PBXFileReference section */
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
-		02C6EC732DA3946400039A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C6EC782DA3946500039A0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02C6EC7A2DA3946500039A0A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +77,37 @@
 		02C6EC8D2DA3946500039A0A /* O'ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "O'ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC912DA3946500039A0A /* O_ClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubUITests.swift; sourceTree = "<group>"; };
 		02C6EC932DA3946500039A0A /* O_ClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02C7D2B22DA3B1F300B99941 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		02C7D2B52DA3B21B00B99941 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		02C7D2B72DA3B24100B99941 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		02C7D2B92DA3B26000B99941 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		02C7D2BB2DA3B26900B99941 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		02C7D2BE2DA3B28300B99941 /* DateFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
+		02C7D2C02DA3B2A900B99941 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		02C7D2C22DA3B2B400B99941 /* ClubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubModel.swift; sourceTree = "<group>"; };
+		02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		02C7D2C62DA3B2DC00B99941 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		02C7D2CA2DA3B47D00B99941 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		02C7D2CE2DA3B4CB00B99941 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		02C7D2D02DA3B4D100B99941 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubPostsUserCase.swift; sourceTree = "<group>"; };
+		02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		02C7D2D92DA3C35300B99941 /* ClubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubRepository.swift; sourceTree = "<group>"; };
+		02C7D2DE2DA3C37F00B99941 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		02C7D2E92DA3C4DA00B99941 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		02C7D2EB2DA3C4EB00B99941 /* AddEventUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventUseCase.swift; sourceTree = "<group>"; };
+		02C7D2F32DA3C55B00B99941 /* RemoteCalendarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCalendarDataSource.swift; sourceTree = "<group>"; };
+		02C7D2F52DA3C56800B99941 /* CalendarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRepository.swift; sourceTree = "<group>"; };
+		02C7D2F72DA3C58600B99941 /* ClubIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubIntro.swift; sourceTree = "<group>"; };
+		02C7D2F92DA3C59D00B99941 /* FetchClubIntroListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchClubIntroListUseCase.swift; sourceTree = "<group>"; };
+		02C7D2FD2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteClubIntroDataSource.swift; sourceTree = "<group>"; };
+		02C7D2FF2DA3C5C800B99941 /* ClubIntroRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubIntroRepository.swift; sourceTree = "<group>"; };
+		02C7D3082DA3C62600B99941 /* RemoteFAQRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFAQRepository.swift; sourceTree = "<group>"; };
+		02C7D30A2DA3C63700B99941 /* FAQRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRepository.swift; sourceTree = "<group>"; };
+		02C7D30C2DA3C64600B99941 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		02C7D30E2DA3C65200B99941 /* FetchFAQListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchFAQListUseCase.swift; sourceTree = "<group>"; };
+		02C7D3102DA3C65800B99941 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +158,11 @@
 		02C6EC702DA3946400039A0A /* O'Club */ = {
 			isa = PBXGroup;
 			children = (
-				02C6EC712DA3946400039A0A /* O_ClubApp.swift */,
-				02C6EC732DA3946400039A0A /* ContentView.swift */,
+				02C6ECA72DA3AC6D00039A0A /* Core */,
+				02C6ECA62DA3AC5300039A0A /* App */,
+				02C6ECA52DA3AC4100039A0A /* Shared */,
+				02C6ECA42DA3AC3600039A0A /* Features */,
 				02C6EC752DA3946500039A0A /* Assets.xcassets */,
-				02C6EC7A2DA3946500039A0A /* Persistence.swift */,
-				02C6EC7C2DA3946500039A0A /* O_Club.xcdatamodeld */,
 				02C6EC772DA3946500039A0A /* Preview Content */,
 			);
 			path = "O'Club";
@@ -131,6 +191,388 @@
 				02C6EC932DA3946500039A0A /* O_ClubUITestsLaunchTests.swift */,
 			);
 			path = "O'ClubUITests";
+			sourceTree = "<group>";
+		};
+		02C6ECA42DA3AC3600039A0A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2AC2DA3B18700B99941 /* Login */,
+				02C7D2AB2DA3B18000B99941 /* FAQ */,
+				02C7D2AA2DA3B14900B99941 /* Introduction */,
+				02C7D2A92DA3B14200B99941 /* Calendar */,
+				02C7D2A82DA3B13900B99941 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		02C6ECA52DA3AC4100039A0A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2AF2DA3B1A800B99941 /* Constants */,
+				02C7D2AE2DA3B1A200B99941 /* Models */,
+				02C7D2AD2DA3B19B00B99941 /* UIComponents */,
+				02C6EC7A2DA3946500039A0A /* Persistence.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		02C6ECA62DA3AC5300039A0A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02C6EC712DA3946400039A0A /* O_ClubApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		02C6ECA72DA3AC6D00039A0A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2BD2DA3B27300B99941 /* Utilities */,
+				02C7D2B42DA3B21200B99941 /* DI */,
+				02C7D2B12DA3B1B400B99941 /* Extensions */,
+				02C7D2B02DA3B1AF00B99941 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		02C7D2A82DA3B13900B99941 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2D42DA3B50C00B99941 /* Data */,
+				02C7D2C92DA3B34600B99941 /* Domain */,
+				02C7D2C82DA3B33A00B99941 /* Presentation */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		02C7D2A92DA3B14200B99941 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2DD2DA3C36900B99941 /* Data */,
+				02C7D2DC2DA3C36400B99941 /* Domain */,
+				02C7D2DB2DA3C35E00B99941 /* Presentation */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		02C7D2AA2DA3B14900B99941 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2E22DA3C3FC00B99941 /* Data */,
+				02C7D2E12DA3C3F900B99941 /* Domain */,
+				02C7D2E02DA3C3F200B99941 /* Presentation */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		02C7D2AB2DA3B18000B99941 /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3032DA3C5E500B99941 /* Data */,
+				02C7D3022DA3C5E000B99941 /* Domain */,
+				02C7D3012DA3C5DA00B99941 /* Presentation */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
+		02C7D2AC2DA3B18700B99941 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3102DA3C65800B99941 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		02C7D2AD2DA3B19B00B99941 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		02C7D2AE2DA3B1A200B99941 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C6EC7C2DA3946500039A0A /* O_Club.xcdatamodeld */,
+				02C7D2C02DA3B2A900B99941 /* UserModel.swift */,
+				02C7D2C22DA3B2B400B99941 /* ClubModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02C7D2AF2DA3B1A800B99941 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2C62DA3B2DC00B99941 /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		02C7D2B02DA3B1AF00B99941 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2B22DA3B1F300B99941 /* NetworkManager.swift */,
+				02C7D2B52DA3B21B00B99941 /* APIError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		02C7D2B12DA3B1B400B99941 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2B92DA3B26000B99941 /* View+Extension.swift */,
+				02C7D2BB2DA3B26900B99941 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02C7D2B42DA3B21200B99941 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2B72DA3B24100B99941 /* AppDIContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		02C7D2BD2DA3B27300B99941 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2BE2DA3B28300B99941 /* DateFormatterManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		02C7D2C82DA3B33A00B99941 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2CA2DA3B47D00B99941 /* MainView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		02C7D2C92DA3B34600B99941 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2CD2DA3B48E00B99941 /* UserCases */,
+				02C7D2CC2DA3B48900B99941 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		02C7D2CC2DA3B48900B99941 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2CE2DA3B4CB00B99941 /* Post.swift */,
+				02C7D2D02DA3B4D100B99941 /* Club.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		02C7D2CD2DA3B48E00B99941 /* UserCases */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */,
+			);
+			path = UserCases;
+			sourceTree = "<group>";
+		};
+		02C7D2D42DA3B50C00B99941 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2D62DA3B51D00B99941 /* DataSources */,
+				02C7D2D52DA3B51600B99941 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		02C7D2D52DA3B51600B99941 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2D92DA3C35300B99941 /* ClubRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		02C7D2D62DA3B51D00B99941 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		02C7D2DB2DA3C35E00B99941 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2DE2DA3C37F00B99941 /* CalendarView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		02C7D2DC2DA3C36400B99941 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2E82DA3C4CE00B99941 /* UseCases */,
+				02C7D2E72DA3C4CA00B99941 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		02C7D2DD2DA3C36900B99941 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2F22DA3C53B00B99941 /* DataSources */,
+				02C7D2F12DA3C53500B99941 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		02C7D2E02DA3C3F200B99941 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		02C7D2E12DA3C3F900B99941 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2E62DA3C4B900B99941 /* UseCases */,
+				02C7D2E52DA3C4B300B99941 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		02C7D2E22DA3C3FC00B99941 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2FC2DA3C5AA00B99941 /* DataSources */,
+				02C7D2FB2DA3C5A300B99941 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		02C7D2E52DA3C4B300B99941 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2F72DA3C58600B99941 /* ClubIntro.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		02C7D2E62DA3C4B900B99941 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2F92DA3C59D00B99941 /* FetchClubIntroListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		02C7D2E72DA3C4CA00B99941 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2E92DA3C4DA00B99941 /* Event.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		02C7D2E82DA3C4CE00B99941 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2EB2DA3C4EB00B99941 /* AddEventUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		02C7D2F12DA3C53500B99941 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2F52DA3C56800B99941 /* CalendarRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		02C7D2F22DA3C53B00B99941 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2F32DA3C55B00B99941 /* RemoteCalendarDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		02C7D2FB2DA3C5A300B99941 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2FF2DA3C5C800B99941 /* ClubIntroRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		02C7D2FC2DA3C5AA00B99941 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D2FD2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		02C7D3012DA3C5DA00B99941 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		02C7D3022DA3C5E000B99941 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3052DA3C5ED00B99941 /* UseCases */,
+				02C7D3042DA3C5EA00B99941 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		02C7D3032DA3C5E500B99941 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3072DA3C60C00B99941 /* DataSources */,
+				02C7D3062DA3C5F500B99941 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		02C7D3042DA3C5EA00B99941 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D30C2DA3C64600B99941 /* FAQ.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		02C7D3052DA3C5ED00B99941 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D30E2DA3C65200B99941 /* FetchFAQListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		02C7D3062DA3C5F500B99941 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D30A2DA3C63700B99941 /* FAQRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		02C7D3072DA3C60C00B99941 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3082DA3C62600B99941 /* RemoteFAQRepository.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +705,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C7D2C32DA3B2B400B99941 /* ClubModel.swift in Sources */,
+				02C7D2CB2DA3B47D00B99941 /* MainView.swift in Sources */,
+				02C7D2F42DA3C55B00B99941 /* RemoteCalendarDataSource.swift in Sources */,
+				02C7D2FA2DA3C59D00B99941 /* FetchClubIntroListUseCase.swift in Sources */,
+				02C7D2BC2DA3B26900B99941 /* String+Extension.swift in Sources */,
+				02C7D30F2DA3C65200B99941 /* FetchFAQListUseCase.swift in Sources */,
+				02C7D2EC2DA3C4EB00B99941 /* AddEventUseCase.swift in Sources */,
+				02C7D2BF2DA3B28300B99941 /* DateFormatterManager.swift in Sources */,
+				02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */,
+				02C7D2B32DA3B1F300B99941 /* NetworkManager.swift in Sources */,
+				02C7D3112DA3C65800B99941 /* LoginView.swift in Sources */,
+				02C7D3002DA3C5C800B99941 /* ClubIntroRepository.swift in Sources */,
 				02C6EC7B2DA3946500039A0A /* Persistence.swift in Sources */,
-				02C6EC742DA3946400039A0A /* ContentView.swift in Sources */,
+				02C7D2B82DA3B24100B99941 /* AppDIContainer.swift in Sources */,
+				02C7D2E42DA3C4AE00B99941 /* CalendarView.swift in Sources */,
 				02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */,
+				02C7D3092DA3C62600B99941 /* RemoteFAQRepository.swift in Sources */,
+				02C7D2B62DA3B21B00B99941 /* APIError.swift in Sources */,
+				02C7D2DF2DA3C37F00B99941 /* CalendarView.swift in Sources */,
+				02C7D2FE2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift in Sources */,
+				02C7D2EA2DA3C4DA00B99941 /* Event.swift in Sources */,
+				02C7D2F62DA3C56800B99941 /* CalendarRepository.swift in Sources */,
+				02C7D2F82DA3C58600B99941 /* ClubIntro.swift in Sources */,
+				02C7D2CF2DA3B4CB00B99941 /* Post.swift in Sources */,
+				02C7D2C72DA3B2DC00B99941 /* Colors.swift in Sources */,
+				02C7D2D12DA3B4D100B99941 /* Club.swift in Sources */,
+				02C7D2D32DA3B4E000B99941 /* ClubPostsUserCase.swift in Sources */,
+				02C7D2BA2DA3B26000B99941 /* View+Extension.swift in Sources */,
+				02C7D2C12DA3B2A900B99941 /* UserModel.swift in Sources */,
 				02C6EC7E2DA3946500039A0A /* O_Club.xcdatamodeld in Sources */,
+				02C7D30D2DA3C64600B99941 /* FAQ.swift in Sources */,
+				02C7D30B2DA3C63700B99941 /* FAQRepository.swift in Sources */,
+				02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */,
+				02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
