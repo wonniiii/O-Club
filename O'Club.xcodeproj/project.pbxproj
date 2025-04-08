@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CBE2DA4A3C500582D20 /* ContentView.swift */; };
+		02457CC12DA4A47400582D20 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC02DA4A47400582D20 /* FAQView.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -32,7 +34,7 @@
 		02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */; };
 		02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D92DA3C35300B99941 /* ClubRepository.swift */; };
 		02C7D2DF2DA3C37F00B99941 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2DE2DA3C37F00B99941 /* CalendarView.swift */; };
-		02C7D2E42DA3C4AE00B99941 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */; };
+		02C7D2E42DA3C4AE00B99941 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2E32DA3C4AE00B99941 /* IntroductionView.swift */; };
 		02C7D2EA2DA3C4DA00B99941 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2E92DA3C4DA00B99941 /* Event.swift */; };
 		02C7D2EC2DA3C4EB00B99941 /* AddEventUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2EB2DA3C4EB00B99941 /* AddEventUseCase.swift */; };
 		02C7D2F42DA3C55B00B99941 /* RemoteCalendarDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2F32DA3C55B00B99941 /* RemoteCalendarDataSource.swift */; };
@@ -66,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02457CBE2DA4A3C500582D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02457CC02DA4A47400582D20 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,7 +98,7 @@
 		02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 		02C7D2D92DA3C35300B99941 /* ClubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubRepository.swift; sourceTree = "<group>"; };
 		02C7D2DE2DA3C37F00B99941 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		02C7D2E32DA3C4AE00B99941 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		02C7D2E92DA3C4DA00B99941 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		02C7D2EB2DA3C4EB00B99941 /* AddEventUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventUseCase.swift; sourceTree = "<group>"; };
 		02C7D2F32DA3C55B00B99941 /* RemoteCalendarDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCalendarDataSource.swift; sourceTree = "<group>"; };
@@ -162,7 +166,6 @@
 				02C6ECA62DA3AC5300039A0A /* App */,
 				02C6ECA52DA3AC4100039A0A /* Shared */,
 				02C6ECA42DA3AC3600039A0A /* Features */,
-				02C6EC752DA3946500039A0A /* Assets.xcassets */,
 				02C6EC772DA3946500039A0A /* Preview Content */,
 			);
 			path = "O'Club";
@@ -219,7 +222,9 @@
 		02C6ECA62DA3AC5300039A0A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				02C6EC752DA3946500039A0A /* Assets.xcassets */,
 				02C6EC712DA3946400039A0A /* O_ClubApp.swift */,
+				02457CBE2DA4A3C500582D20 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -431,7 +436,7 @@
 		02C7D2E02DA3C3F200B99941 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				02C7D2E32DA3C4AE00B99941 /* CalendarView.swift */,
+				02C7D2E32DA3C4AE00B99941 /* IntroductionView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 		02C7D3012DA3C5DA00B99941 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				02457CC02DA4A47400582D20 /* FAQView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -719,8 +725,9 @@
 				02C7D3002DA3C5C800B99941 /* ClubIntroRepository.swift in Sources */,
 				02C6EC7B2DA3946500039A0A /* Persistence.swift in Sources */,
 				02C7D2B82DA3B24100B99941 /* AppDIContainer.swift in Sources */,
-				02C7D2E42DA3C4AE00B99941 /* CalendarView.swift in Sources */,
+				02C7D2E42DA3C4AE00B99941 /* IntroductionView.swift in Sources */,
 				02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */,
+				02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */,
 				02C7D3092DA3C62600B99941 /* RemoteFAQRepository.swift in Sources */,
 				02C7D2B62DA3B21B00B99941 /* APIError.swift in Sources */,
 				02C7D2DF2DA3C37F00B99941 /* CalendarView.swift in Sources */,
@@ -735,6 +742,7 @@
 				02C7D2BA2DA3B26000B99941 /* View+Extension.swift in Sources */,
 				02C7D2C12DA3B2A900B99941 /* UserModel.swift in Sources */,
 				02C6EC7E2DA3946500039A0A /* O_Club.xcdatamodeld in Sources */,
+				02457CC12DA4A47400582D20 /* FAQView.swift in Sources */,
 				02C7D30D2DA3C64600B99941 /* FAQ.swift in Sources */,
 				02C7D30B2DA3C63700B99941 /* FAQRepository.swift in Sources */,
 				02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */,
