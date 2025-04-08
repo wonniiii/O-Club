@@ -9,7 +9,9 @@ import SwiftUI
 
 struct IntroductionView: View {
     var body: some View {
-      Text("IntroductionView")
+        NavigationBar(title: "게시물 상세", rightButtonTitle: nil, rightButtonAction:
+           nil
+        )
     }
 }
 

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CBE2DA4A3C500582D20 /* ContentView.swift */; };
 		02457CC12DA4A47400582D20 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC02DA4A47400582D20 /* FAQView.swift */; };
+		02457CC32DA4B45400582D20 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC22DA4B45400582D20 /* ActionButton.swift */; };
+		02457CC52DA4B80C00582D20 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC42DA4B80C00582D20 /* ScreenSize.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -70,6 +72,8 @@
 /* Begin PBXFileReference section */
 		02457CBE2DA4A3C500582D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02457CC02DA4A47400582D20 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		02457CC22DA4B45400582D20 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		02457CC42DA4B80C00582D20 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -292,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */,
+				02457CC22DA4B45400582D20 /* ActionButton.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				02C7D2C62DA3B2DC00B99941 /* Colors.swift */,
+				02457CC42DA4B80C00582D20 /* ScreenSize.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -729,6 +735,7 @@
 				02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */,
 				02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */,
 				02C7D3092DA3C62600B99941 /* RemoteFAQRepository.swift in Sources */,
+				02457CC52DA4B80C00582D20 /* ScreenSize.swift in Sources */,
 				02C7D2B62DA3B21B00B99941 /* APIError.swift in Sources */,
 				02C7D2DF2DA3C37F00B99941 /* CalendarView.swift in Sources */,
 				02C7D2FE2DA3C5B800B99941 /* RemoteClubIntroDataSource.swift in Sources */,
@@ -744,6 +751,7 @@
 				02C6EC7E2DA3946500039A0A /* O_Club.xcdatamodeld in Sources */,
 				02457CC12DA4A47400582D20 /* FAQView.swift in Sources */,
 				02C7D30D2DA3C64600B99941 /* FAQ.swift in Sources */,
+				02457CC32DA4B45400582D20 /* ActionButton.swift in Sources */,
 				02C7D30B2DA3C63700B99941 /* FAQRepository.swift in Sources */,
 				02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */,
 				02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */,
