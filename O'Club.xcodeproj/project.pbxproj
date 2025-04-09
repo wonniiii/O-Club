@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0239B3432DA634AA00F4DD71 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0239B3422DA634AA00F4DD71 /* LoginViewModel.swift */; };
 		02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CBE2DA4A3C500582D20 /* ContentView.swift */; };
 		02457CC12DA4A47400582D20 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC02DA4A47400582D20 /* FAQView.swift */; };
 		02457CC32DA4B45400582D20 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02457CC22DA4B45400582D20 /* ActionButton.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0239B3422DA634AA00F4DD71 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		02457CBE2DA4A3C500582D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02457CC02DA4A47400582D20 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		02457CC22DA4B45400582D20 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
@@ -149,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0239B3412DA6338400F4DD71 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				02C7D3102DA3C65800B99941 /* LoginView.swift */,
+				0239B3422DA634AA00F4DD71 /* LoginViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		02C6EC652DA3946400039A0A = {
 			isa = PBXGroup;
 			children = (
@@ -294,7 +305,7 @@
 		02C7D2AC2DA3B18700B99941 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				02C7D3102DA3C65800B99941 /* LoginView.swift */,
+				0239B3412DA6338400F4DD71 /* Presentation */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -740,6 +751,7 @@
 				02C7D30F2DA3C65200B99941 /* FetchFAQListUseCase.swift in Sources */,
 				02C7D2EC2DA3C4EB00B99941 /* AddEventUseCase.swift in Sources */,
 				02C7D2BF2DA3B28300B99941 /* DateFormatterManager.swift in Sources */,
+				0239B3432DA634AA00F4DD71 /* LoginViewModel.swift in Sources */,
 				02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */,
 				02C7D2B32DA3B1F300B99941 /* NetworkManager.swift in Sources */,
 				02C7D3112DA3C65800B99941 /* LoginView.swift in Sources */,
