@@ -15,6 +15,10 @@
 		02457CC72DA5011E00582D20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02457CC62DA5011E00582D20 /* GoogleService-Info.plist */; };
 		02457CCA2DA5024500582D20 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 02457CC92DA5024500582D20 /* FirebaseDatabase */; };
 		02457CCC2DA5024500582D20 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 02457CCB2DA5024500582D20 /* FirebaseStorage */; };
+		027D2E052DA75ED10029D2D6 /* CardShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E042DA75ED10029D2D6 /* CardShape.swift */; };
+		027D2E092DA794540029D2D6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E082DA794540029D2D6 /* MainViewModel.swift */; };
+		027D2E0F2DA7961F0029D2D6 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */; };
+		027D2E112DA7964A0029D2D6 /* CardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E102DA7964A0029D2D6 /* CardContainer.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -34,7 +38,7 @@
 		02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */; };
 		02C7D2C72DA3B2DC00B99941 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2C62DA3B2DC00B99941 /* Colors.swift */; };
 		02C7D2CB2DA3B47D00B99941 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2CA2DA3B47D00B99941 /* MainView.swift */; };
-		02C7D2CF2DA3B4CB00B99941 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2CE2DA3B4CB00B99941 /* Post.swift */; };
+		02C7D2CF2DA3B4CB00B99941 /* InfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2CE2DA3B4CB00B99941 /* InfoItem.swift */; };
 		02C7D2D12DA3B4D100B99941 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D02DA3B4D100B99941 /* Club.swift */; };
 		02C7D2D32DA3B4E000B99941 /* ClubPostsUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */; };
 		02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */; };
@@ -80,6 +84,10 @@
 		02457CC22DA4B45400582D20 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		02457CC42DA4B80C00582D20 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
 		02457CC62DA5011E00582D20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		027D2E042DA75ED10029D2D6 /* CardShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShape.swift; sourceTree = "<group>"; };
+		027D2E082DA794540029D2D6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		027D2E102DA7964A0029D2D6 /* CardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainer.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +110,7 @@
 		02C7D2C42DA3B2C800B99941 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		02C7D2C62DA3B2DC00B99941 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		02C7D2CA2DA3B47D00B99941 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		02C7D2CE2DA3B4CB00B99941 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		02C7D2CE2DA3B4CB00B99941 /* InfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoItem.swift; sourceTree = "<group>"; };
 		02C7D2D02DA3B4D100B99941 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubPostsUserCase.swift; sourceTree = "<group>"; };
 		02C7D2D72DA3C32300B99941 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
@@ -158,6 +166,25 @@
 				0239B3422DA634AA00F4DD71 /* LoginViewModel.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		027D2E062DA793EA0029D2D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				027D2E042DA75ED10029D2D6 /* CardShape.swift */,
+				02C7D2CA2DA3B47D00B99941 /* MainView.swift */,
+				027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */,
+				027D2E102DA7964A0029D2D6 /* CardContainer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		027D2E072DA793F00029D2D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				027D2E082DA794540029D2D6 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		02C6EC652DA3946400039A0A = {
@@ -375,7 +402,8 @@
 		02C7D2C82DA3B33A00B99941 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				02C7D2CA2DA3B47D00B99941 /* MainView.swift */,
+				027D2E072DA793F00029D2D6 /* ViewModel */,
+				027D2E062DA793EA0029D2D6 /* View */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -383,7 +411,7 @@
 		02C7D2C92DA3B34600B99941 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				02C7D2CD2DA3B48E00B99941 /* UserCases */,
+				02C7D2CD2DA3B48E00B99941 /* UseCases */,
 				02C7D2CC2DA3B48900B99941 /* Entities */,
 			);
 			path = Domain;
@@ -392,18 +420,18 @@
 		02C7D2CC2DA3B48900B99941 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				02C7D2CE2DA3B4CB00B99941 /* Post.swift */,
+				02C7D2CE2DA3B4CB00B99941 /* InfoItem.swift */,
 				02C7D2D02DA3B4D100B99941 /* Club.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		02C7D2CD2DA3B48E00B99941 /* UserCases */ = {
+		02C7D2CD2DA3B48E00B99941 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
 				02C7D2D22DA3B4E000B99941 /* ClubPostsUserCase.swift */,
 			);
-			path = UserCases;
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		02C7D2D42DA3B50C00B99941 /* Data */ = {
@@ -750,6 +778,7 @@
 				02C7D2BC2DA3B26900B99941 /* String+Extension.swift in Sources */,
 				02C7D30F2DA3C65200B99941 /* FetchFAQListUseCase.swift in Sources */,
 				02C7D2EC2DA3C4EB00B99941 /* AddEventUseCase.swift in Sources */,
+				027D2E0F2DA7961F0029D2D6 /* CardContentView.swift in Sources */,
 				02C7D2BF2DA3B28300B99941 /* DateFormatterManager.swift in Sources */,
 				0239B3432DA634AA00F4DD71 /* LoginViewModel.swift in Sources */,
 				02C7D2D82DA3C32300B99941 /* RemoteDataSource.swift in Sources */,
@@ -757,6 +786,7 @@
 				02C7D3112DA3C65800B99941 /* LoginView.swift in Sources */,
 				02C7D3002DA3C5C800B99941 /* ClubIntroRepository.swift in Sources */,
 				02C6EC7B2DA3946500039A0A /* Persistence.swift in Sources */,
+				027D2E052DA75ED10029D2D6 /* CardShape.swift in Sources */,
 				02C7D2B82DA3B24100B99941 /* AppDIContainer.swift in Sources */,
 				02C7D2E42DA3C4AE00B99941 /* IntroductionView.swift in Sources */,
 				02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */,
@@ -769,7 +799,7 @@
 				02C7D2EA2DA3C4DA00B99941 /* Event.swift in Sources */,
 				02C7D2F62DA3C56800B99941 /* CalendarRepository.swift in Sources */,
 				02C7D2F82DA3C58600B99941 /* ClubIntro.swift in Sources */,
-				02C7D2CF2DA3B4CB00B99941 /* Post.swift in Sources */,
+				02C7D2CF2DA3B4CB00B99941 /* InfoItem.swift in Sources */,
 				02C7D2C72DA3B2DC00B99941 /* Colors.swift in Sources */,
 				02C7D2D12DA3B4D100B99941 /* Club.swift in Sources */,
 				02C7D2D32DA3B4E000B99941 /* ClubPostsUserCase.swift in Sources */,
@@ -781,7 +811,9 @@
 				02457CC32DA4B45400582D20 /* ActionButton.swift in Sources */,
 				02C7D30B2DA3C63700B99941 /* FAQRepository.swift in Sources */,
 				02C7D2C52DA3B2C800B99941 /* NavigationBar.swift in Sources */,
+				027D2E092DA794540029D2D6 /* MainViewModel.swift in Sources */,
 				02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */,
+				027D2E112DA7964A0029D2D6 /* CardContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
