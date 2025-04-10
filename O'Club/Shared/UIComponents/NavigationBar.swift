@@ -50,7 +50,6 @@ struct NavigationBar: View {
         .padding(.horizontal)
         .padding(.top, 12)
         .padding(.bottom, 6)
-        .background(Color.white)
     }
 }
 

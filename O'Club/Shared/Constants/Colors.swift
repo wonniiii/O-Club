@@ -21,6 +21,7 @@ extension Color {
     
     static let cjRed = Color(hex: 0xEF151E)
     static let cjYellow = Color(hex: 0xFF9700)
+    static let allBackground = Color(hex: 0xF5F5F5)
     static let lightGray = Color(hex: 0x828488)
     static let secondaryGray = Color(hex: 0xFFFFFF)
     static let boardBlue = Color(hex: 0x0D265E)
