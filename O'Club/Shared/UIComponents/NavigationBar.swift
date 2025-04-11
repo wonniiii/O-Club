@@ -13,14 +13,14 @@ struct NavigationBar: View {
     let rightButtonAction: (() -> Void)?
     
     @Environment(\.dismiss) private var dismiss
-
+    
     var body: some View {
         ZStack {
             // 중앙 제목
             Text(title)
                 .font(.body)
                 .foregroundStyle(.black)
-
+            
             // 좌우 버튼
             HStack {
                 Button(action: {
@@ -30,9 +30,9 @@ struct NavigationBar: View {
                         .font(.body)
                         .foregroundStyle(.black)
                 }
-
+                
                 Spacer()
-
+                
                 if let rightTitle = rightButtonTitle, let action = rightButtonAction {
                     Button(action: action) {
                         Text(rightTitle)
@@ -47,9 +47,17 @@ struct NavigationBar: View {
                 }
             }
         }
+        .frame(width: .infinity, height: 44)
         .padding(.horizontal)
         .padding(.top, 12)
         .padding(.bottom, 6)
+        .background(Color.white)
+        .overlay(
+            Rectangle()
+                .frame(height: 1)
+                .foregroundColor(Color.black.opacity(0.1)),
+            alignment: .bottom
+        )
     }
 }
 

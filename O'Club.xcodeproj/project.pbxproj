@@ -19,6 +19,10 @@
 		027D2E092DA794540029D2D6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E082DA794540029D2D6 /* MainViewModel.swift */; };
 		027D2E0F2DA7961F0029D2D6 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */; };
 		027D2E112DA7964A0029D2D6 /* CardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E102DA7964A0029D2D6 /* CardContainer.swift */; };
+		027D2E152DA7B1680029D2D6 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E142DA7B1680029D2D6 /* BoardView.swift */; };
+		027D2E172DA7B3C60029D2D6 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E162DA7B3C60029D2D6 /* PostList.swift */; };
+		027D2E192DA89F570029D2D6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E182DA89F570029D2D6 /* Post.swift */; };
+		027D2E1B2DA89F850029D2D6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1A2DA89F850029D2D6 /* Date.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -88,6 +92,10 @@
 		027D2E082DA794540029D2D6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
 		027D2E102DA7964A0029D2D6 /* CardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainer.swift; sourceTree = "<group>"; };
+		027D2E142DA7B1680029D2D6 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		027D2E162DA7B3C60029D2D6 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		027D2E182DA89F570029D2D6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		027D2E1A2DA89F850029D2D6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +183,8 @@
 				02C7D2CA2DA3B47D00B99941 /* MainView.swift */,
 				027D2E0E2DA7961F0029D2D6 /* CardContentView.swift */,
 				027D2E102DA7964A0029D2D6 /* CardContainer.swift */,
+				027D2E142DA7B1680029D2D6 /* BoardView.swift */,
+				027D2E162DA7B3C60029D2D6 /* PostList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +371,7 @@
 			children = (
 				02C7D2C62DA3B2DC00B99941 /* Colors.swift */,
 				02457CC42DA4B80C00582D20 /* ScreenSize.swift */,
+				027D2E1A2DA89F850029D2D6 /* Date.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -422,6 +433,7 @@
 			children = (
 				02C7D2CE2DA3B4CB00B99941 /* InfoItem.swift */,
 				02C7D2D02DA3B4D100B99941 /* Club.swift */,
+				027D2E182DA89F570029D2D6 /* Post.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -772,6 +784,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02C7D2C32DA3B2B400B99941 /* ClubModel.swift in Sources */,
+				027D2E172DA7B3C60029D2D6 /* PostList.swift in Sources */,
 				02C7D2CB2DA3B47D00B99941 /* MainView.swift in Sources */,
 				02C7D2F42DA3C55B00B99941 /* RemoteCalendarDataSource.swift in Sources */,
 				02C7D2FA2DA3C59D00B99941 /* FetchClubIntroListUseCase.swift in Sources */,
@@ -786,6 +799,7 @@
 				02C7D3112DA3C65800B99941 /* LoginView.swift in Sources */,
 				02C7D3002DA3C5C800B99941 /* ClubIntroRepository.swift in Sources */,
 				02C6EC7B2DA3946500039A0A /* Persistence.swift in Sources */,
+				027D2E1B2DA89F850029D2D6 /* Date.swift in Sources */,
 				027D2E052DA75ED10029D2D6 /* CardShape.swift in Sources */,
 				02C7D2B82DA3B24100B99941 /* AppDIContainer.swift in Sources */,
 				02C7D2E42DA3C4AE00B99941 /* IntroductionView.swift in Sources */,
@@ -804,6 +818,8 @@
 				02C7D2D12DA3B4D100B99941 /* Club.swift in Sources */,
 				02C7D2D32DA3B4E000B99941 /* ClubPostsUserCase.swift in Sources */,
 				02C7D2BA2DA3B26000B99941 /* View+Extension.swift in Sources */,
+				027D2E152DA7B1680029D2D6 /* BoardView.swift in Sources */,
+				027D2E192DA89F570029D2D6 /* Post.swift in Sources */,
 				02C7D2C12DA3B2A900B99941 /* UserModel.swift in Sources */,
 				02C6EC7E2DA3946500039A0A /* O_Club.xcdatamodeld in Sources */,
 				02457CC12DA4A47400582D20 /* FAQView.swift in Sources */,
