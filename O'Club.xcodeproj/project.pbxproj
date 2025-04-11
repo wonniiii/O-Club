@@ -25,6 +25,7 @@
 		027D2E1B2DA89F850029D2D6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1A2DA89F850029D2D6 /* Date.swift */; };
 		027D2E1D2DA8B2300029D2D6 /* BoardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1C2DA8B2300029D2D6 /* BoardDetailView.swift */; };
 		027D2E1F2DA8CFD90029D2D6 /* WriteBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1E2DA8CFD90029D2D6 /* WriteBottomSheet.swift */; };
+		027D2E212DA9093C0029D2D6 /* WriteBottomSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E202DA9093C0029D2D6 /* WriteBottomSheetViewModel.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -100,6 +101,7 @@
 		027D2E1A2DA89F850029D2D6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		027D2E1C2DA8B2300029D2D6 /* BoardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailView.swift; sourceTree = "<group>"; };
 		027D2E1E2DA8CFD90029D2D6 /* WriteBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBottomSheet.swift; sourceTree = "<group>"; };
+		027D2E202DA9093C0029D2D6 /* WriteBottomSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBottomSheetViewModel.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				027D2E082DA794540029D2D6 /* MainViewModel.swift */,
+				027D2E202DA9093C0029D2D6 /* WriteBottomSheetViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -838,6 +841,7 @@
 				027D2E092DA794540029D2D6 /* MainViewModel.swift in Sources */,
 				02C7D2DA2DA3C35300B99941 /* ClubRepository.swift in Sources */,
 				027D2E112DA7964A0029D2D6 /* CardContainer.swift in Sources */,
+				027D2E212DA9093C0029D2D6 /* WriteBottomSheetViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
