@@ -17,7 +17,7 @@ struct PostList: View {
         }
         .frame(height: 100)
         .background(cardBackground)
-        .padding(.horizontal, 10)
+        .padding(.horizontal, 5)
     }
 }
 

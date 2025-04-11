@@ -42,7 +42,6 @@ struct BoardView: View {
                         createdAt: Date()
                     ))
                 }
-                .padding(.horizontal)
                 
                 Spacer()
             }

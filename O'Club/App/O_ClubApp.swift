@@ -25,7 +25,7 @@ struct O_ClubApp: App {
 
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            WriteBottomSheet()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -23,6 +23,8 @@
 		027D2E172DA7B3C60029D2D6 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E162DA7B3C60029D2D6 /* PostList.swift */; };
 		027D2E192DA89F570029D2D6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E182DA89F570029D2D6 /* Post.swift */; };
 		027D2E1B2DA89F850029D2D6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1A2DA89F850029D2D6 /* Date.swift */; };
+		027D2E1D2DA8B2300029D2D6 /* BoardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1C2DA8B2300029D2D6 /* BoardDetailView.swift */; };
+		027D2E1F2DA8CFD90029D2D6 /* WriteBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D2E1E2DA8CFD90029D2D6 /* WriteBottomSheet.swift */; };
 		02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C6EC712DA3946400039A0A /* O_ClubApp.swift */; };
 		02C6EC762DA3946500039A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC752DA3946500039A0A /* Assets.xcassets */; };
 		02C6EC792DA3946500039A0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C6EC782DA3946500039A0A /* Preview Assets.xcassets */; };
@@ -96,6 +98,8 @@
 		027D2E162DA7B3C60029D2D6 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		027D2E182DA89F570029D2D6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		027D2E1A2DA89F850029D2D6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		027D2E1C2DA8B2300029D2D6 /* BoardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDetailView.swift; sourceTree = "<group>"; };
+		027D2E1E2DA8CFD90029D2D6 /* WriteBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBottomSheet.swift; sourceTree = "<group>"; };
 		02C6EC6E2DA3946400039A0A /* O'Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "O'Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C6EC712DA3946400039A0A /* O_ClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O_ClubApp.swift; sourceTree = "<group>"; };
 		02C6EC752DA3946500039A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -185,6 +189,8 @@
 				027D2E102DA7964A0029D2D6 /* CardContainer.swift */,
 				027D2E142DA7B1680029D2D6 /* BoardView.swift */,
 				027D2E162DA7B3C60029D2D6 /* PostList.swift */,
+				027D2E1C2DA8B2300029D2D6 /* BoardDetailView.swift */,
+				027D2E1E2DA8CFD90029D2D6 /* WriteBottomSheet.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -805,6 +811,7 @@
 				02C7D2E42DA3C4AE00B99941 /* IntroductionView.swift in Sources */,
 				02C6EC722DA3946400039A0A /* O_ClubApp.swift in Sources */,
 				02457CBF2DA4A3C500582D20 /* ContentView.swift in Sources */,
+				027D2E1D2DA8B2300029D2D6 /* BoardDetailView.swift in Sources */,
 				02C7D3092DA3C62600B99941 /* RemoteFAQRepository.swift in Sources */,
 				02457CC52DA4B80C00582D20 /* ScreenSize.swift in Sources */,
 				02C7D2B62DA3B21B00B99941 /* APIError.swift in Sources */,
@@ -822,6 +829,7 @@
 				027D2E192DA89F570029D2D6 /* Post.swift in Sources */,
 				02C7D2C12DA3B2A900B99941 /* UserModel.swift in Sources */,
 				02C6EC7E2DA3946500039A0A /* O_Club.xcdatamodeld in Sources */,
+				027D2E1F2DA8CFD90029D2D6 /* WriteBottomSheet.swift in Sources */,
 				02457CC12DA4A47400582D20 /* FAQView.swift in Sources */,
 				02C7D30D2DA3C64600B99941 /* FAQ.swift in Sources */,
 				02457CC32DA4B45400582D20 /* ActionButton.swift in Sources */,
